@@ -1,0 +1,9 @@
+CLIENT_ID='380253fd-a81b-4790-a8a2-f2df9ec08c00'
+CLIENT_SECRET='136cd204-4310-4290-acea-b22e572c1090'
+SCOPE='crm.objects.contacts.read'
+
+git clone git@github.com:HubSpot/oauth-quickstart-nodejs.git
+cd oauth-quickstart-nodejs 
+.env 
+yarn install
+yarn start
